@@ -39,7 +39,7 @@ public class Main {
                 }
             }
         }catch (Exception e){
-            System.out.println("You can not write in letters ");
+            System.out.println("You can not write in letters " + e.getMessage());
         }
 
     }
