@@ -22,6 +22,18 @@ public class Music {
         return musicSinger;
     }
 
+    public void setMusicId(int musicId) {
+        this.musicId = musicId;
+    }
+
+    public void setMusicName(String musicName) {
+        this.musicName = musicName;
+    }
+
+    public void setMusicSinger(String musicSinger) {
+        this.musicSinger = musicSinger;
+    }
+
     @Override
     public String toString() {
         return "Music{" +
